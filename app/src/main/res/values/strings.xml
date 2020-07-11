@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pizzeria Los Arcos</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_signin">Registrarse</string>
+    <string name="btn_guest">Invitado</string>
+    <string name="tv_unase">Únase</string>
+    <string name="tv_terms_and_conditions">Si pulsa Aceptar significa que acepta nuestros Términos y condiciones y ha leído la Declaración de privacidad.</string>
+    <string name="btn_acept">Aceptar</string>
+    <string name="tv_profile">Información del perfil</string>
+    <string name="et_name">Nombre(s)</string>
+    <string name="et_lastname">Apellidos</string>
+    <string name="et_email">e-mail </string>
+    <string name="btn_next">Siguiente</string>
+    <string name="tv_register_number">Registrate con tu número de celular</string>
+    <string name="btn_next_a">Siguiente</string>
+    <string name="tv_verification_code">Introduzca el código de seguridad</string>
+    <string name="tv_phone_number">Enviado a</string>
+    <string name="et_verification_code">Código de seguridad</string>
+    <string name="tv_create_password">Crea una contraseña</string>
+    <string name="et_password">Contraseña</string>
+    <string name="et_verifypassword">Verifica contraseña</string>
+    <string name="btn_register">Registrarse</string>
+
+    <string-array name="countries">
+        <item>🇲🇽 México (+52)</item>
+        <item>🇺🇸 Estados Unidos (+1)</item>
+    </string-array>
+    <string name="title_activity_menu_navigation">MenuNavigationActivity</string>
+    <string name="tv_introduce_password">Introduce tu contraseña</string>
+    <string name="tv_login_with_email">Inicia sesión con tu correo electrónico</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="tv_register_account"><u>Registrar una cuenta</u></string>
+    <string name="tv_restore_password"><u>He olvidado la contraseña</u></string>
+    <string name="title_menu">Menú</string>
+    <string name="title_more">Más</string>
+</resources>
