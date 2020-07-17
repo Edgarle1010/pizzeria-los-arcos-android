@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewPizzas"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -21,9 +21,10 @@
             android:src="@drawable/pizzas_menu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            android:onClick="Pizzasact"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewHamburguesas"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -31,11 +32,13 @@
             android:layout_marginEnd="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/hamburguesas_menu"
+            android:onClick="hamburgesa"
             app:layout_constraintEnd_toStartOf="@+id/guideline3"
             app:layout_constraintStart_toStartOf="@+id/imageViewPizzas"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewPizzas" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPizzas"
+             />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewEnsaladas"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -46,7 +49,7 @@
             app:layout_constraintStart_toStartOf="@+id/guideline3"
             app:layout_constraintTop_toTopOf="@+id/imageViewHamburguesas" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewPlatillos"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -57,7 +60,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewHamburguesas"
             app:layout_constraintTop_toBottomOf="@+id/imageViewHamburguesas" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewMariscos"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -68,7 +71,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewEnsaladas"
             app:layout_constraintTop_toTopOf="@+id/imageViewPlatillos" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewDesayunos"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -79,7 +82,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewPlatillos"
             app:layout_constraintTop_toBottomOf="@+id/imageViewPlatillos" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewBebidas"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -90,7 +93,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewMariscos"
             app:layout_constraintTop_toTopOf="@+id/imageViewDesayunos" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewPostres"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -102,7 +105,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewDesayunos"
             app:layout_constraintTop_toBottomOf="@+id/imageViewDesayunos" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewNieves"
             android:layout_width="0dp"
             android:layout_height="160dp"
@@ -113,7 +116,7 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewBebidas"
             app:layout_constraintTop_toTopOf="@+id/imageViewPostres" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageViewKids"
             android:layout_width="0dp"
             android:layout_height="160dp"

@@ -1,7 +1,10 @@
 package com.edgarlopez.pizzerialosarcos.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
+import com.edgarlopez.pizzerialosarcos.PizzaActivity;
 import com.edgarlopez.pizzerialosarcos.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,5 +30,52 @@ public class MenuNavigationActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
     }
+    public void Pizzasact(View t) {
+        Intent intent = new Intent(MenuNavigationActivity.this, PizzaActivity.class);
+        startActivity(intent);
+    }
+   /* public void carrito (View t) {
+        Intent intent = new Intent(MenuActivity.this, CarritoActivity.class);
+        startActivity(intent);
+    }
+    public void ensalada(View t) {
+        Intent intent = new Intent(MenuActivity.this, EnsaladasActivity.class);
+        startActivity(intent);
+    }
+    public void hamburgesa(View t) {
+        Intent intent = new Intent(MenuActivity.this, HamburgesaActivity.class);
 
+        startActivity(intent);
+    }
+    public void marisco(View t) {
+        Intent intent = new Intent(MenuActivity.this, MariscoActivity.class);
+
+        startActivity(intent);
+    }
+    public void platillos(View t) {
+        Intent intent = new Intent(MenuActivity.this, PlatillosActivity.class);
+
+        startActivity(intent);
+    }
+    public void desayuno (View t) {
+        Intent intent = new Intent(MenuActivity.this, DesayunoActivity.class);
+        startActivity(intent);
+    }
+    public void bebidas(View t) {
+        Intent intent = new Intent(MenuActivity.this, BebidaActivity.class);
+        startActivity(intent);
+    }
+    public void postres(View t) {
+        Intent intent = new Intent(MenuActivity.this, PostreActivity.class);
+        startActivity(intent);
+    }
+    public void nieves(View t) {
+        Intent intent = new Intent(MenuActivity.this, NieveActivity.class);
+        startActivity(intent);
+    }
+    public void kids(View t) {
+        Intent intent = new Intent(MenuActivity.this, KidsActivity.class);
+        startActivity(intent);
+    }
+*/
 }
